@@ -10,17 +10,17 @@ Welcome to the Zigbee2mqtt documentation!
 * [Configuration](configuration/configuration.md)
 * [Device specific configuration](configuration/device_specific_configuration.md)
 
+### Integration
+* [Home Assistant](integration/home_assistant.md)
+* [Admin Panel for Node-Red](https://github.com/ben423423n32j14e/zigbee2mqttadminpanel)
+* [Domoticz](https://github.com/stas-demydiuk/domoticz-zigbee2mqtt-plugin)
+
 ### Information
 * [Supported devices](information/supported_devices.md)
 * [Docker](information/docker.md)
 
-TODO:
 
-### Customization
-* [Integrating with Home Assistant](Integrating-with-Home-Assistant.md)
-* [Admin Panel for Node-Red](https://github.com/ben423423n32j14e/zigbee2mqttadminpanel.md)
-* [Configuration](Configuration.md)
-* [Device specific configuration](Device-specific-configuration.md)
+TODO:
 
 ### Useful information
 * [MQTT topics and message structure](MQTT-topics-and-message-structure.md)

@@ -4,7 +4,7 @@ It is possible to run Zigbee2mqtt in a Docker container using the official [Zigb
 First run the container, this will create the configuration directory. Change `configuration.yaml` according to your situation and start again.
 
 ### Parameters
-* `-v $(pwd)/data:/app/data`: Directory where zigbee2mqtt stores it configuration
+* `-v $(pwd)/data:/app/data`: Directory where Zigbee2mqtt stores it configuration
 * `--device=/dev/ttyACM0`: Location of CC2531 USB sniffer
 
 ## Supported architectures
