@@ -40,6 +40,7 @@ When using Home Assistant MQTT discovery, Zigbee2mqtt integrates with the [Home 
 
 ## Responding to button clicks
 To respond to button clicks (e.g. WXKG01LM) you can use the following Home Assistant configuration:
+
 ```yaml
 automation:
   - alias: Respond to button clicks
@@ -48,7 +49,7 @@ automation:
       topic: 'zigbee2mqtt/<FRIENDLY_NAME'
     condition:
       condition: template
-      value_template: "{{ 'single' == trigger.payload_json.click }}"
+      value_template: '{{ "single" == trigger.payload_json.click }}'
     action:
       entity_id: light.bedroom
       service: light.toggle
