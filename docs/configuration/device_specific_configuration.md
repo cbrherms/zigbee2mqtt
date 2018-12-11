@@ -15,7 +15,7 @@ devices:
     qos: 1
 ```
 
-Once finished, start zigbee2mqtt.
+Once finished, restart Zigbee2mqtt.
 
 The bridge will log the `friendly_name` on startup, e.g.:
 ```

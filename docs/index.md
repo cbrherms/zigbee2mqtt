@@ -12,6 +12,7 @@ Welcome to the Zigbee2mqtt documentation!
 
 ### Information
 * [Supported devices](information/supported_devices.md)
+* [Docker](information/docker.md)
 
 TODO:
 
@@ -25,7 +26,6 @@ TODO:
 * [MQTT topics and message structure](MQTT-topics-and-message-structure.md)
 * [Supported CC sniffer devices](Supported-sniffer-devices.md)
 * [Alternative firmware flashing methods](Alternative-firmware-flashing-methods.md)
-* [Docker](Docker.md)
 * [ZigBee network](ZigBee-network.md)
 * [3D Case Options](3D-case-options.md)
 
